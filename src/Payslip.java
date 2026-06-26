@@ -79,6 +79,12 @@ public final class Payslip implements Cloneable {
      * Formats the payslip into a readable form.
      * This avoids printing details manually in main().
      */
+    /**
+     * Returns the employee's net pay.
+     */
+    public double getNetPay() {
+        return components.netPay;
+    }
     @Override
     public String toString() {
 
