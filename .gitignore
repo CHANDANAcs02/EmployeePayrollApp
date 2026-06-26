@@ -38,7 +38,8 @@ build/
 
 # Generated data files
 employee_data.txt
-
+Payslip_*.txt
+Payslip_*.pdf
 # OS files
 .DS_Store
 Thumbs.db
