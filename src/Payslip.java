@@ -85,6 +85,12 @@ public final class Payslip implements Cloneable {
     public double getNetPay() {
         return components.netPay;
     }
+    /**
+     * Returns the salary month.
+     */
+    public String getMonth() {
+        return month;
+    }
     @Override
     public String toString() {
 
